@@ -36,6 +36,13 @@
   .hero-sub{font-size:18px;color:var(--text-secondary);max-width:680px;margin:0 auto 32px;line-height:1.65;text-align:center;text-wrap:pretty}
   .hero-meta{text-align:center;margin:0 auto 40px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-muted)}
   .hero-meta span{margin:0 14px}
+  .video-label{text-align:center;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px}
+  .video-wrap{position:relative;padding-bottom:56.25%;margin:0 auto 14px;max-width:880px;border-radius:6px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:0 30px 80px rgba(0,0,0,0.6);background:linear-gradient(135deg,#151819,#0b0d0e)}
+  .video-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at center,rgba(59,122,87,0.18),transparent 60%),linear-gradient(135deg,#151819,#0b0d0e)}
+  .video-poster .play-btn{position:absolute;width:84px;height:84px;border-radius:50%;background:rgba(59,122,87,0.92);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(59,122,87,0.5);transition:all 0.3s ease;border:3px solid rgba(255,255,255,0.95)}
+  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #fff;margin-left:6px}
+  .video-poster .video-source-label{position:absolute;bottom:14px;right:18px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-secondary);background:rgba(0,0,0,0.65);padding:6px 12px;border-radius:2px}
+  .video-note{font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;margin:0 auto 32px;max-width:680px;line-height:1.55}
   .cta-primary{display:inline-block;padding:18px 44px;background:var(--accent);color:#fff;border-radius:3px;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(59,122,87,0.22)}
   .cta-primary:hover{background:var(--accent-bright);transform:translateY(-2px)}
   .brand-note{margin-top:20px;font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
@@ -109,6 +116,14 @@
 <h1>If you run a family roofing operation, <em>this is how we do it.</em></h1>
 <p class="hero-sub">The systems, sales process, and brand-building approach behind Masters Roofing Memphis. Built by a 2nd-generation roofer who grew up in the trade and built the brand alongside the business.</p>
 <p class="hero-meta"><span>Self-Paced</span>&middot;<span>6 Modules</span>&middot;<span>Family Trade Operators</span></p>
+<div class="video-label">A Word From Andrew · @mastersroofing.memphis</div>
+<div class="video-wrap" role="presentation" aria-label="Explainer video - Masters Roofing Memphis">
+<div class="video-poster">
+<div class="play-btn"></div>
+<span class="video-source-label">Explainer Video · Masters Roofing Memphis</span>
+</div>
+</div>
+<p class="video-note">Explainer video from @mastersroofing.memphis drops in here on Day 1 of the install. Swap to your custom 4-min VSL before the page goes live.</p>
 <a href="#enrol" class="cta-primary">Apply Now</a>
 <p class="brand-note">Made with my brand colors, because I couldn't identify yours cleanly from the live surfaces - one of the small Day-1 gaps to fix.</p>
 </div>
